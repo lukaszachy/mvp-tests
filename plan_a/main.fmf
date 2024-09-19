@@ -1,0 +1,7 @@
+execute:
+    how: tmt
+    script: echo
+prepare:
+    how: ansible
+    url: https://github.com/lukaszachy/mvp-tests/raw/refs/heads/main/ansible/demo.yaml
+    
